@@ -1,0 +1,794 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grocery Mall</title>
+
+<link rel="icons" type="image/icons" href="image/fav.jpg">	
+
+<!-- code for font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<!-- code for font awesome cdn -->
+
+
+<link rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+<!-- code for linking css file -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- code for linking css file -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<!-- header section -->
+<header class="header">
+	<a href="#" class="logo"> <i class="fa fa-shopping-bag"></i> Grocery</a> 
+
+<nav class="navbar">
+	<a href="#home">home</a>
+	<a href="#products">products</a>
+	<a href="#features">features</a>
+	<a href="#categories">categories</a>
+	
+</nav>
+
+<div class="icons">
+	<div class="fa fa-bars" id="menu-btn"></div>
+	<div class="fa fa-search" id="search-btn"></div>
+	<div class="fa fa-shopping-cart" id="cart-btn"></div>
+	<div class="fa fa-user" id="login-btn"></div>
+	
+</div>
+
+<form class="search-form">
+	<input type="search" id="search-box" placeholder="Search Here">
+	<label for="search-box" class="fa fa-search"></label>
+</form>
+
+
+<div class="shopping-cart">
+	<div class="box">
+
+		<i class="fa fa-trash"></i>
+		<img src="image/apple.jpg">
+		<div class="content">
+			<h3>apple</h3>
+			<span class="price">₹ 22/-</span>
+			<span class="quantity">Qnty : 1</span>
+		</div>
+	</div>
+
+
+	<div class="box">
+
+		<i class="fa fa-trash"></i>
+		<img src="image/beetroot.jpg">
+		<div class="content">
+			<h3>beetroot</h3>
+			<span class="price">₹ 24/-</span>
+			<span class="quantity">Qnty : 1</span>
+		</div>
+	</div>
+
+
+	<div class="box">
+
+		<i class="fa fa-trash"></i>
+		<img src="image/pear.jpg">
+		<div class="content">
+			<h3>pear</h3>
+			<span class="price">₹ 31/-</span>
+			<span class="quantity">Qnty : 1</span>
+		</div>
+	</div>
+
+	<div class="box">
+
+		<i class="fa fa-trash"></i>
+		<img src="image/almonds.jpg">
+		<div class="content">
+			<h3>almonds</h3>
+			<span class="price">₹ 286/-</span>
+			<span class="quantity">Qnty : 1</span>
+		</div>
+	</div>
+
+<div class="total">total amount:₹ 363 /-</div>
+<a href="#" class="btn">purchase/buy</a>
+
+</div>
+
+<form action="#" class="login-form">
+	<h3>login</h3>
+	<input type="email" placeholder="enter your email" class="box"><br>
+	<input type="password" placeholder="enter password" class="box"><br>
+
+<p>forgot your password <a href="#">click here</a></p>
+<p>don't have an account <a href="#">create new one</a></p>	
+	<input type="submit" value="login" class="btn">
+</form>
+
+
+
+
+</header>
+
+<!-- header section -->	
+
+
+
+
+<!-- homepage section -->
+<section class="homepage" id="home">
+	<div class="content">
+		
+	  <h3>Great Deals with good quality products...</h3>
+	  <p>Here you can buy all essential items for your daily needs absolutely at low price.just try this once </p>
+
+	  <a href="#" class="btn">look deals</a>
+	
+    </div>
+</section>
+
+
+<!-- homepage section -->	
+
+<!-- our products section -->
+
+<section class="products" id="products">
+	<h1 class="heading"><span>products</span></h1>
+
+	<div class="swiper product-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+				<img src="image/apple.jpg">
+				<h1>apple</h1>
+				<div class="price"> ₹20/- - ₹50/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+
+
+			<div class="swiper-slide box">
+				<img src="image/beetroot.jpg">
+				<h1>beet root</h1>
+				<div class="price"> ₹24/- - ₹60/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/cabbage.jpg">
+				<h1>cabbage</h1>
+				<div class="price"> ₹56/- - ₹80/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/brinjal.jpg">
+				<h1>brinjal</h1>
+				<div class="price"> ₹100/- - ₹150/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/capsicum.jpg">
+				<h1>capsicum</h1>
+				<div class="price"> ₹60/- - ₹190/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/chilli.jpg">
+				<h1>chilli</h1>
+				<div class="price"> ₹100/- - ₹50/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+					
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/coriander.jpg">
+				<h1>coriander</h1>
+				<div class="price"> ₹5/- - ₹30/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/cucumber.jpg">
+				<h1>cucumber</h1>
+				<div class="price"> ₹50/- - ₹70/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+			<div class="swiper-slide box">
+				<img src="image/guava.jpg">
+				<h1>guava</h1>
+				<div class="price"> ₹25/- - ₹30/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/ladyfinger.jpg">
+				<h1>lady finger</h1>
+				<div class="price"> ₹25/- - ₹30/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/onion.jpg">
+				<h1>onion</h1>
+				<div class="price"> ₹25/- - ₹30/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/mushroom.jpg">
+				<h1>mushroom</h1>
+				<div class="price"> ₹25/- - ₹30/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/potato.jpg">
+				<h1>potato</h1>
+				<div class="price"> ₹25/- - ₹30/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/tomato.jpeg">
+				<h1>tomato</h1>
+				<div class="price"> ₹25/- - ₹30/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/meat.jpeg">
+				<h1>meat</h1>
+				<div class="price"> ₹600/- - ₹800/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/chicken.jpeg">
+				<h1>chicken</h1>
+				<div class="price"> ₹225/- - ₹235/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/fish.jpeg">
+				<h1>fish</h1>
+				<div class="price"> ₹275/- - ₹300/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/almonds.jpg">
+				<h1>almonds</h1>
+				<div class="price"> ₹300/- - ₹435/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+					
+     		<div class="swiper-slide box">
+				<img src="image/asirvad.jpg">
+				<h1>aashirvaad</h1>
+				<div class="price"> ₹275/- - ₹335/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/fortune.jpg">
+				<h1>fortune</h1>
+				<div class="price"> ₹125/- - ₹205/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/maggie.jpg">
+				<h1>maggie</h1>
+				<div class="price"> ₹225/- - ₹235/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/kismis.jpg">
+				<h1>kismis</h1>
+				<div class="price"> ₹75/- - ₹125/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/salt.jpg">
+				<h1>salt</h1>
+				<div class="price"> ₹15/- - ₹35/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/maida.jpg">
+				<h1>maida</h1>
+				<div class="price"> ₹125/- - ₹135/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+					
+					
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/toordal.jpg">
+				<h1>toordal</h1>
+				<div class="price"> ₹69/- - ₹87/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/cheese.jpg">
+				<h1>cheese</h1>
+				<div class="price"> ₹49/- - ₹200/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+
+			<div class="swiper-slide box">
+				<img src="image/egg.jpeg">
+				<h1>eggs</h1>
+				<div class="price"> ₹5/- - ₹10/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/paneer.jpg">
+				<h1>paneer</h1>
+				<div class="price"> ₹115/- - ₹335/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/milk.jpeg">
+				<h1>milk</h1>
+				<div class="price"> ₹35/- - ₹75/-</div>
+				<div class="star">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half"></i>
+				</div>
+				<a href="#" class="btn">buy</a><br>
+				<a href="#" class="btn">add to cart</a>
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+
+
+</section>
+
+
+<!-- our products section -->
+
+<!--our features section-->
+<section class="features" id="features">
+	<h1 class="heading"> <span>Features</span> </h1>
+	<div class="box-container">
+		<div class="box">
+			<img src="image/bet.jpeg">
+			<h3>Fresh fruits and veggies look down..</h3>
+			<p>Fresh Fruits – apples, bananas, citrus fruits, guavas, peaches, mangoes, strawberries, litchis, etc. </p>
+
+			<a href="#" class="btn">Look </a>
+		</div>
+
+		
+		<div class="box">
+			<img src="image/pay.png">
+			<h3>Easy Payment with a affordable way</h3>
+			<p> purchase amount charged to a Card into monthly instalment payment with an agreed instalment payment period.</p>
+			<a href="#" class="btn">Read more</a>
+		</div>
+
+		<div class="box">
+			<img src="image/del.png">
+			<h3>Free Delivery on above 1000/- rupees</h3>
+			<p>free delivery to your door in 50 minutes when purchased items worth of 1000/- rupees only.</p>
+			<a href="#" class="btn">See more</a>
+		</div>
+
+
+	</div>
+
+</section>
+<!-- our features section -->
+
+<!-- our categories section -->
+<section class="categories" id="categories">
+	<h1 class="heading"> <span>categories</span></h1>
+	<div class="box-container">
+		<div class="box">
+			<img src="image/cat1.jpeg">
+			<h3>vegetables</h3>
+			<p>upto 35% off</p>
+			<a href="#" class="btn">shop now</a>
+		</div>
+
+		<div class="box">
+			<img src="image/cat2.png">
+			<h3>essentials</h3>
+			<p>upto 45% off</p>
+			<a href="#" class="btn">shop now</a>
+		</div>
+
+		<div class="box">
+			<img src="image/cat3.jpg">
+			<h3>non-veg</h3>
+			<p>upto 30% off</p>
+			<a href="#" class="btn">shop now</a>
+		</div>
+
+		<div class="box">
+			<img src="image/cat4.jpeg">
+			<h3>dairy products</h3>
+			<p>upto 10% off</p>
+			<a href="#" class="btn">shop now</a>
+		</div>
+
+
+
+	</div>
+
+</section>
+
+<!-- our categories section -->
+
+
+
+
+
+
+<!-- our footer section -->
+<section class="footer">
+	<div class="box-container">
+		<div class="box">
+			<h3>grocery <i class="fa fa-shopping-cart"></i></h3>
+			<p>thank you for visiting this page.do follow my all social media pages through below link.</p>
+			<div class="share">
+				<a href="#" class="fa fa-facebook-official"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-twitter-square"></a>
+				<a href="#" class="fa fa-linkedin-square"></a>
+			</div>
+		</div>
+	
+
+
+
+	    <div class="box">
+			<h3>contact info</h3>
+			<a href="#" class="links"><i class="fa fa-phone"></i>+91 0000000987</a>
+			<a href="#" class="links"><i class="fa fa-phone"></i>+91 0000000988</a>
+			<a href="#" class="links"><i class="fa fa-envelope"></i>ayesnagrocery@info.com</a>
+			<a href="#" class="links"><i class="fa fa-map-marker"></i>jalandhar,punjab,india.</a>
+		</div>
+
+		<div class="box">
+			<h3>quick links</h3>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i>Home</a>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i>Products</a>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i>features</a>
+			<a href="#" class="links"><i class="fa fa-arrow-right"></i>categories</a>
+			
+		</div>
+
+		<div class="box">
+			<h3>news letter</h3>
+			<p>support this website guys..<i class="fa fa-heart"></i></p>
+			
+			
+		</div>
+			
+	</div>	
+
+<div class="credit">created by <span>AYESNA</span> bro <span>SHAIK.RIZWAN</span> | All rights reserved. </div>
+
+
+
+
+
+
+</section>
+<!-- our footer section -->
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
